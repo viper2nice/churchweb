@@ -1,11 +1,15 @@
 import React from "react";
+import Member from "../Pages/Member";
 
 // interface NavbarProbs {
 //   children: ReactNode;
 //   onClick: ()=> void
 const links = [
-  { name: "Home", href: "#" },
-  { name: "Member", href: "#" },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/@lighthousebaptistchurch-br8286",
+  },
+  { name: "FaceBook", href: "" },
   { name: "About Us", href: "#" },
   { name: "Meet our leadership", href: "#" },
 ];
@@ -54,9 +58,9 @@ export default function Navbar() {
             LightHous Bastize church
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Hi aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+            cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
+            aliqua.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
