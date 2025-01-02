@@ -1,9 +1,5 @@
 import React from "react";
-import Member from "../Pages/Member";
 
-// interface NavbarProbs {
-//   children: ReactNode;
-//   onClick: ()=> void
 const links = [
   {
     name: "YouTube",
